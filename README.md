@@ -19,26 +19,26 @@
 ## <i id="four"></i>算法
 按问题目标的类型划分
 
-- 排序
-	- 插入排序
+- [排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/tree/master/sort "排序")
+	- [插入排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/insertion/insertion.go)
 		- 直接插入排序(Insert Sort) O(n^2)
 		- 折半插入排序(Binary Insert Sort)
 		- 希尔排序(Shell Sort)
 
-	- 交换排序
+	- [交换排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/bubble/bubble.go)
 		- 冒泡排序(Bubble Sort) O(n^2)
 		- 快速排序(Quick Sort)?? O(nlogn)
 
-	- 选择排序
+	- [选择排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/selection/selection.go)
 		- 直接选择排序(Select Sort) O(n^2)
 		- 锦标赛排序(Tournament Sort) O(nlogn)
-		- 堆排序(Heap Sort) O(nlogn)
+		- [堆排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/heap/heap.go)(Heap Sort) O(nlogn)
 
-	- 归并排序(Merge Sort) O(nlogn)
+	- [归并排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/merge/merge.go)(Merge Sort) O(nlogn)
 
 	- 基数排序(Radix Sort) O(d(n+radix))
 
-	- 桶排序(Bucket Sort) O(nlogn)
+	- [桶排序](https://github.com/bannerchi/Algorithms-Learning-With-Go/blob/master/sort/bucket/bucket.go)(Bucket Sort) O(nlogn)
 
 - 查找/搜索
 
